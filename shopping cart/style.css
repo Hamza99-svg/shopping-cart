@@ -1,0 +1,63 @@
+.img{
+    display:flex;
+    margin-left: 400px;
+height : 600px;
+weight : 400px;
+
+}
+
+.header-menu  {
+    display:flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+}
+
+.shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    
+    
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  
+
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+
+
+
+  .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+
+  
+  
+  .delete-btn,
+  .like-btn {
+    display: inline-block;
+    Cursor: pointer;
+  }
+  .delete-btn {
+    width: 30px;
+    height: 30px;
+    background: url(https://icon-icons.com/icons2/692/PNG/32/seo-social-web-network-internet_262_icon-icons.com_61518.png) no-repeat center;
+  }
+   
+  .like-btn {
+    position: absolute;
+    
+    background: url(https://icon-icons.com/icons2/38/PNG/32/like_favorite_heart_5759.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+  }
